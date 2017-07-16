@@ -1,0 +1,17 @@
+h1{
+  font-family: cursive;
+  text-align: center;
+}
+.jumbotron{
+  background-color: maroon;
+  color: white;
+}
+h2{
+  font-size: 40px;
+}
+li{
+  font-size: 30px;
+}
+button{
+  background-color: maroon;
+}
