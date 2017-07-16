@@ -1,14 +1,18 @@
 
 { "questions": [{
+"id": 1,
 "asked": "I have started a new ember project but the port 4200 is not working",
 "author": "Peter Achacha"
 }, {
+"id": 2,
 "asked": "How do I install bootstrap to use in my ember project?",
 "author": "James White"
 }, {
+"id": 3,
 "asked": "How do I create a route in ember projects??",
 "author": "Michelle Brown"
 }, {
+"id": 4,
 "asked": "How do I create a component in ember?",
 "author": "Tasha Banks"
 }]

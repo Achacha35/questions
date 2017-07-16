@@ -1,4 +1,4 @@
 <li>
-  {{question.author}}'s question is "{{question.asked}}""
+  {{#link-to 'question' question.id}}{{question.author}}'s question is "{{question.asked}}"{{/link-to}}
   {{update-question question=question update="update"}}
 </li>

@@ -1,2 +1,5 @@
-<h2>More information on {{question.author}}'s question</h2>
-{{question-detail question=model}}
+<h2>More information on {{question.asked}}'s question</h2>
+
+{{update-question question=model update='update'}}
+
+{{question-detail question=model destroyQuestion="destroyQuestion"}}
