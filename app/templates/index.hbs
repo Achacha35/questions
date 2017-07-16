@@ -4,7 +4,7 @@
 
 {{!  Displaying the model data !}}
 <ul>
-  {{#each model as |question|}}
+  {{#each model.questions as |question|}}
   <li>{{question-tile question=question}}</li>
   {{/each}}
 </ul>
@@ -15,10 +15,12 @@
 
 <ul>
   {{#each model.answers as |answer|}}
-    <li>{{answer.reply}} - by {{answer.author}}</li>
+    <li>{{answer.reply}} - by {{answer.user}}</li>
   {{/each}}
 </ul>
 
+
+{{new-answer saveAnswer="saveAnswer"}}
 <hr>
 
 {{#link-to 'about'}}Learn more{{/link-to}}
