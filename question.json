@@ -15,5 +15,12 @@
 "id": 4,
 "asked": "How do I create a component in ember?",
 "author": "Tasha Banks"
+}],
+"answers": [{
+  "author": "El Chapo",
+  "reply": "At my house."
+}, {
+  "author": "Simmon",
+  "reply": "Download it from the internet"
 }]
 }
