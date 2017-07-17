@@ -1,7 +1,7 @@
-{{question.author}}'s question "{{question.asked}}"
+<p>{{question.author}}'s question "{{question.asked}}"</p>
 <br>
 
-<h2> Answers </h2>
+<h3> Answers </h3>
 <ul>
   {{#each question.answers as |answer|}}
     {{answer-tile answer=answer destroyAnswer="destroyAnswer"}}

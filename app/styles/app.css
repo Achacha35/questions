@@ -15,3 +15,15 @@ li{
 button{
   font-size: 20px;
 }
+p {
+  font-size: 20px;
+  font-family: cursive;
+}
+h3 {
+  font-size: 40px;
+  font-family: serif;
+  text-align: center;
+}
+.middle {
+  text-align: center; 
+}

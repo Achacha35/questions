@@ -1,7 +1,5 @@
 <li>
   {{#link-to 'question' question.id}}{{question.author}}'s question is "{{question.asked}}"{{/link-to}}
   {{update-question question=question update="update"}}
-  {{answer.reply}} by {{answer.user}}
+  {{answer.reply}}{{answer.user}}
 </li>
-
-<button {{action 'delete' answer}}>Delete answer</button>
